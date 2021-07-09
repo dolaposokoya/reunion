@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -16,21 +18,21 @@
 <body>
     <div
         style="display: flex; flex-direction: column; justify-content: center; align-items: center;  margin-top: 40px;">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <h2>Countdown to Reunion <span>2021</span></h2>
-            <div class="countdown">
-                <div id="days" data-name="Days">NA</div>
+            <div class="countdown" data-aos="fade-right">
+                <div id="days" data-name="Days" data-aos="fade-right">NA</div>
                 <div id="hours" data-name="Hours">NA</div>
                 <div id="minutes" data-name="Minutes">NA</div>
                 <div id="seconds" data-name="Seconds">NA</div>
             </div>
         </div>
         <div class="info_section">
-            <div class="event">
+            <div class="event" data-aos="fade-up">
                 <h2>We invite you to our 7th year reunion</h2>
             </div>
             <div class="details">
-                <div class="contact">
+                <div class="contact" data-aos="fade-left">
                     <div class="info">
                         <p>Contact Details</p>
                     </div>
@@ -39,7 +41,7 @@
                         <p>Bamisaye Mobolaji <span>+234 703 127 0668</span></p>
                     </div>
                 </div>
-                <div class="venue">
+                <div class="venue" data-aos="fade-right">
                     <div class="info">
                         <p>Venue</p>
                     </div>
@@ -49,7 +51,7 @@
                         </Address>
                     </div>
                 </div>
-                <div class="account">
+                <div class="account" data-aos="fade-left">
                     <div class="info">
                         <p>Payment Info</p>
                     </div>

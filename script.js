@@ -1,3 +1,4 @@
+AOS.init();
 const reunionDate = new Date('Oct 29,  2021 12:00:00').getTime()
 
 
