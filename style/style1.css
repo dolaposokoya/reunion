@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 :root {
     --MAIN_FONT: 'Staatliches', cursive;
-    --SECOND_FONT: 'Arvo', serif;
     --NAVY_BLUE: #171846;
     --BOX_COLOR: #3a57d6;
     --GREY: #bbb4b4;
@@ -25,7 +24,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 50px;
+    /* width: 50%; */
+    padding: 30px;
+    /* position: absolute; */
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
     background: url(../images/reunion2.jpg) no-repeat;
     background-attachment: fixed;
     border-radius: 15px;
@@ -52,7 +57,7 @@ body {
 
 .countdown {
     display: flex;
-    margin: 20px 0;
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -86,88 +91,7 @@ body {
 }
 
 .info_section {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding-top: 20px;
-}
-
-.event {
-    border-bottom: solid 4px var(--NAVY_BLUE);
-}
-
-.event h2 {
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.details {
-    margin-top: 40px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.contact, .venue, .account {
-    margin: 12px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
-    border-top-left-radius: 14px;
-    border-bottom-right-radius: 14px;
-    box-shadow: 0 30px 30px rgba(47, 49, 56, 0.84);
-}
-
-.info {
-    background-color: var(--BOX_COLOR);
-    padding: 15px 0;
-    margin-bottom: 10px;
-    border-top-left-radius: 14px;
-}
-
-.info p {
-    text-align: center;
-    color: rgb(253, 253, 253);
-    font-family: var(--SECOND_FONT);
-    font-weight: 900;
-}
-
-.info_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    /* border-top-right-radius: 14px; */
-    background-color: var(--BOX_COLOR);
-    padding: 15px 10px;
-}
-
-.info_content p, .info_content Address {
-    text-align: center;
-    color: rgb(253, 253, 253);
-    font-family: var(--SECOND_FONT);
-    font-size: 1rem;
-    padding: 5px 0;
-}
-
-.info_content p span {
-    text-align: center;
-    padding: 18px;
-    color: rgb(253, 253, 253);
-    font-family: var(--SECOND_FONT);
-    font-size: 0.8rem;
-}
-
-.acc_num {
-    text-align: center;
-    color: rgb(253, 253, 253);
-    font-family: var(--SECOND_FONT);
-    font-size: 0.8rem;
+    background-color: rebeccapurple;
 }
 
 @media screen and (max-width: 600px) {
