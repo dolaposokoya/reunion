@@ -213,7 +213,19 @@ a {
 }
 
 .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-bottom: solid 2px var(--BOX_COLOR);
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
@@ -247,11 +259,6 @@ a {
     border-radius: 50px;
     background-color: whitesmoke;
     margin: 10px;
-}
-
-.content img {
-    width: 20px;
-    height: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -298,6 +305,13 @@ a {
         font-size: 0.4em;
         background: var(--BOX_COLOR);
     }
+    .personal_details {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .personal_details div img {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -322,10 +336,6 @@ a {
         right: 10px;
         bottom: 80px;
         background: var(--NAVY_BLUE);
-        /* background: url(../images/reunion2.jpg) no-repeat;
-        background-attachment: fixed;
-        border-radius: 15px;
-        box-shadow: 0 50px 50px rgb(58, 87, 214, 0.84); */
     }
     .countdown {
         margin-top: 20px;
