@@ -18,6 +18,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: hard-light;
+    position: relative;
+    min-height: 100vh;
 }
 
 .container {
@@ -172,12 +174,18 @@ body {
 }
 
 footer {
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     /* justify-content: space-between; */
     align-items: center;
     background-color: #171846;
     padding: 20px 10px;
+    bottom: 0;
+    /* width: 100vw; */
 }
 
 footer p {
