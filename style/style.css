@@ -96,12 +96,13 @@ body {
 }
 
 .event {
-    border-bottom: solid 4px var(--NAVY_BLUE);
+    border-bottom: solid 4px var(--BOX_COLOR);
 }
 
 .event h2 {
     padding-bottom: 10px;
     text-align: center;
+    color: var(--NAVY_BLUE);
 }
 
 .details {
