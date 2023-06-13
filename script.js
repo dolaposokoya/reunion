@@ -12,8 +12,6 @@ const countdown = setInterval(function () {
     const hours = minutes * 60
     const days = hours * 24
 
-    console.log('Gapo', gap)
-
     let day = Math.floor(gap / (days))
     let hour = Math.floor((gap % (days)) / hours)
     let minute = Math.floor((gap % (hours)) / minutes)
