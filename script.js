@@ -1,7 +1,7 @@
 AOS.init();
 const reunionDate = new Date('Oct 14,  2023 12:00:00').getTime()
 
-
+$('#reunion_year').text(new Date('Oct 14,  2023 12:00:00').getFullYear())
 const countdown = setInterval(function () {
 
     // Get today's date and time
